@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerTopo{
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    display: flex;    
+    top: 100px; /* top temporario */
+}
+
+#hero-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 30%;
+}
+#hero-texts{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(0, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    max-width: 600px;
+}
+
+#hero-texts h1{
+    font-family: sans-serif;
+    color: rgb(48, 126, 80);
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.hero-p{
+    width: 80%;
+}
+
+.hero-p p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(77, 77, 77);
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.hero-btn{
+    background-color: rgb(80, 177, 121);
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.hero-btn a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
