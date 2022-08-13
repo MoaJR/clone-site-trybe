@@ -13,6 +13,10 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
 }
 
 .containerNav{
@@ -106,3 +110,53 @@ nav{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* fim header */
+
+/* main parte 2 */
+
+.parte2{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPt2{
+    height: 100%;
+    width: 62%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.textsPt2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textsPt2Wrap{
+    width: 65%;
+}
+
+.testimonialsPt2{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card img{
+    border-radius: 50%;
+    width: 110px;
+}
